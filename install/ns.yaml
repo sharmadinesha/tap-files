@@ -14,7 +14,10 @@ namespaces:
   scanpolicy: strict
 - name: apps4
   pipeline: java
-  scanpolicy: strict  
+  scanpolicy: strict
+- name: apps5
+  pipeline: python
+  scanpolicy: none
 - name: demo-tap-acmefitness
   pipeline: other
   scanpolicy: strict
