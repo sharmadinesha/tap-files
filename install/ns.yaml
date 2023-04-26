@@ -14,7 +14,7 @@ namespaces:
   scanpolicy: strict
 - name: demo-tap-acmefitness
   pipeline: other
-  scanpolicy: other
+  scanpolicy: strict
 - name: demo-tap-bank
   pipeline: other
-  scanpolicy: other    
+  scanpolicy: strict    
