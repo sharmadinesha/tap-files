@@ -3,8 +3,6 @@ kind: System
 metadata:
   name: fitness-store
   description: ACME Shopping fitness-store System
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
 spec:
   owner: epic-dev-team
   domain: online-stores
