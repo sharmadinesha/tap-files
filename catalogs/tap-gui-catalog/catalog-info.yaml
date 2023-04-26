@@ -14,3 +14,4 @@ spec:
     - ./domains/hello-domain.yaml
     - ./domains/online-stores.yaml    
     - ./systems/hello-system.yaml
+    - ./systems/fitness-store.yaml
