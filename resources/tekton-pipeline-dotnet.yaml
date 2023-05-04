@@ -8,7 +8,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: tekton-pipeline-java
+  name: tekton-pipeline-dotnet
   labels:
     apps.tanzu.vmware.com/pipeline: test
   annotations:
