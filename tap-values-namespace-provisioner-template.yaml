@@ -1,0 +1,21 @@
+namespace_provisioner:
+  controller: false
+  sync_period: 0m10s
+  gitops_install:
+    ref: origin/main
+    subPath: install
+    url: https://github.com/kubeages/tap-files.git   
+  additional_sources:
+  - git:
+      ref: origin/main
+      subPath: resources
+      url: https://github.com/kubeages/tap-files.git
+    path: _ytt_lib/dev-ns-setup
+  import_data_values_secrets:
+  - name: workload-secrets-data
+    namespace: tap-install
+    create_export: true
+  overlay_secrets:
+  - name: workload-secrets-overlay
+    namespace: tap-install
+    create_export: true  
