@@ -2,20 +2,5 @@
 ---
 namespaces:
 - name: apps
-  pipeline: java
-  scanpolicy: strict
-- name: apps2
-  pipeline: java
-  scanpolicy: other
-- name: apps3
-  pipeline: dotnet
-  scanpolicy: strict
-- name: demo-tap-acmefitness
-  pipeline: other
-  scanpolicy: strict
-- name: demo-tap-bank
-  pipeline: other
-  scanpolicy: strict
-- name: demo-tap-mobileapp
-  pipeline: java
-  scanpolicy: strict       
+  pipeline: none
+  scanpolicy: none      
