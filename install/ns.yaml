@@ -1,12 +1,9 @@
 #@data/values
 ---
 namespaces:
-- name: apps
-  pipeline: none
-  scanpolicy: none 
-- name: demo-java-app
-  pipeline: none
-  scanpolicy: none
 - name: tanzu-java-web-app
   pipeline: none
   scanpolicy: none
+- name: acme-fitness-app
+  pipeline: none
+  scanpolicy: strict
