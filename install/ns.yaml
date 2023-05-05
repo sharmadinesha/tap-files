@@ -3,4 +3,7 @@
 namespaces:
 - name: apps
   pipeline: none
-  scanpolicy: none      
+  scanpolicy: none 
+- name: demo-java-app
+  pipeline: none
+  scanpolicy: none
