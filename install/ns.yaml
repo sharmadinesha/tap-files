@@ -7,3 +7,6 @@ namespaces:
 - name: demo-java-app
   pipeline: none
   scanpolicy: none
+- name: tanzu-java-web-app
+  pipeline: none
+  scanpolicy: none
