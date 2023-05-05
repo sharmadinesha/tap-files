@@ -4,12 +4,12 @@ namespace_provisioner:
   gitops_install:
     ref: origin/main
     subPath: install
-    url: https://github.com/kubeages/tap-files.git   
+    url: https://github.com/sharmadinesha/tap-files.git   
   additional_sources:
   - git:
       ref: origin/main
       subPath: resources
-      url: https://github.com/kubeages/tap-files.git
+      url: https://github.com/sharmadinesha/tap-files.git
     path: _ytt_lib/dev-ns-setup
   import_data_values_secrets:
   - name: workload-secrets-data
