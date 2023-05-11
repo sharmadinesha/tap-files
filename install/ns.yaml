@@ -7,3 +7,6 @@ namespaces:
 - name: ac
   pipeline: none
   scanpolicy: strict
+- name: apps2
+  pipeline: none
+  scanpolicy: strict
