@@ -4,3 +4,6 @@ namespaces:
 - name: tanzu-java-web-app
   pipeline: java
   scanpolicy: strict
+- name: acme-fitness-demo 
+  pipeline: none
+  scanpolicy: strict
