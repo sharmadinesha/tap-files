@@ -7,3 +7,6 @@ namespaces:
 - name: acme-fitness-demo 
   pipeline: none
   scanpolicy: strict
+- name: apps
+  pipeline: none
+  scanpolicy: none
